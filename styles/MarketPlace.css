@@ -147,6 +147,10 @@ body p{
     -webkit-animation:colorchange 20s infinite alternate;
     
 }
+
+
+
+
 @keyframes fundal {
     0% {
         background-color: #1061b1;
@@ -266,18 +270,15 @@ body p{
     grid-template-columns: 1fr 1fr;
     gap: 2.5rem 2.5rem;
 }
-#grid li:nth-of-type(3n){
-    grid-column:1 / span 2;
-    width:129rem;
-}
+
 
 #grid li{
     display:flex;
     background-color: white;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.194);
     /* overflow: hidden; */
-    width:63.125rem;
-    height:20.313rem;
+    width:44rem;
+    height:19rem;
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -292,8 +293,8 @@ body p{
     to   { transform: translate(0, -0px); }    
 }
 #grid li img{
-    width:25rem;
-    height:19rem;
+    width:13rem;
+    height:17rem;
     /* object-fit:center; */
 }
 
@@ -439,9 +440,11 @@ body p{
     #presentation{
 
        padding:2rem;
+    
     }
     #grid ul{
         width:20.25rem;
+        height:70rem;
         margin:0;
         padding-left:0;
         grid-template-columns: 100%;
@@ -451,42 +454,41 @@ body p{
     
     #grid li{
         display:flex;
-        width:20.125rem;
-        height:25.313rem;
+        width:15rem;
+        height:14rem;
         
 
     }
-    #grid li:nth-of-type(3n){
-        grid-column:1fr;
-        display:flex;
-        width:20.125rem;
-        height:25.313rem;
-    }
+    
     #grid li img{
-        width:10rem;
-        height:19rem;
-       
+        width:8rem;
+        height:12rem;
+        padding:0;
+    }
+    .text{
+        height: 224px;
     }
     
     .item-content{
-        padding:0.5rem;
+        padding:0;
         display:flex;
         flex-direction:column;
     }
     .item-content h2,p{
-        padding:0.5rem;
-        width:120px;
+        font-size: 1rem;
+        height: 10px;
+       
     }
- 
+    
     #Start2{
-        margin: 0;
+     
         height:18.75rem;
         width:100%;
     }
     #Start2 h1{
         margin:0;
-        padding:2.5rem;
-        font-size:1.875rem;
+      
+        font-size:1rem;
     }
     
     #Start2 a{
