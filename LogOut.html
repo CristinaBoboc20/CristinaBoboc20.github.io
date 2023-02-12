@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>
+            Profile 
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      </head>
+      <body>
+
+      <div class="container">
+        <h2>Profile</h2>
+        <button onclick="Logout();" style="float: right;">Logout</button>
+        <hr>
+        <h3>Welcome</h3>
+        <h4>Name: <script>document.write(localStorage.getItem('name'));</script></h4>
+      </div>
+
+      </body>
+      <script>
+        let name=localStorage.getItem('name')?localStorage.getItem('name'):''
+        console.log(name);
+        if(name=='')
+        {
+          alert('U need to login first');
+          window.location.href="LogIn.html";
+        }
+        function Logout()
+        {
+          localStorage.removeItem('name');
+          localStorage.removeItem('email');
+          window.location.href="LogIn.html";
+        }
+  </script>
+      </html>

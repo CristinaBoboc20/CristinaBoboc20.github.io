@@ -1,0 +1,238 @@
+body{
+    font-family:'Roboto',sans-serif;   
+    background-color: rgb(234, 227, 227);    
+}
+body p,h2,h1{
+    margin:0;
+}
+#contdata{
+    font-size:1.2rem;
+}
+#problem{
+    font-size:1.5rem;
+    margin-bottom:10px;
+    padding:10px;
+}
+#prezentare3{
+    height: 25rem;
+    background-image: url('../images1/imgContact.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+#prezentare3-content{
+    width: 43.75rem;
+    text-align:center;
+    /* padding: 40px 0; */
+    margin: 0 auto;
+    position:relative;
+    top: 6.25rem;
+}
+
+#prezentare3-content h1{
+    color:white;
+    font-size: 3.125rem;
+    padding:0.625rem 2.5rem;
+    margin:0;
+
+}
+
+#prezentare3-content p{
+    color:white;
+    padding:0.938rem;
+    font-size:1.25rem;
+    font-weight: normal;
+} 
+
+
+
+#prezentare3-content >a:first-of-type{
+
+    background-color:#0070ba ;
+    padding: 0.875rem 1.563rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;
+    color:white;
+    padding: 0.5rem 6.25rem;
+    font-size: 1.5rem;
+    box-shadow: none;
+   
+} 
+#prezentare3-content a{
+    color:white;
+    text-decoration: none;
+    transition: width 2s, height 4s;
+} 
+#prezentare3-content a:hover{
+   text-decoration: underline;
+   width: 200px;
+   height: 35px;
+   
+}
+#contdata{
+    background-color: #f5f7fa;
+    margin:0;
+    height:90rem;
+}
+#contdata h1,h2{
+    padding:2.5rem 0px 1.875rem 0;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+@keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+
+
+form{
+    width:60rem;
+    margin:0 auto ;
+    background-color: #f5f7fa;
+    padding:3rem;
+    top:4rem;
+    border-radius:8px;
+    position: relative;
+    animation:fundal 5s ease infinite;
+
+}
+@keyframes fundal {
+    0% {
+        background-color: #f5f7fa;
+    }
+    50%{
+        background-color: #c5cad1 ;
+    }
+    100%{
+        background-color: #6f737a;
+    }
+}
+
+label{
+    margin-bottom: 0.5rem;
+    display:block;
+}
+input{
+    width:100%;
+    display:block;
+    margin-bottom:1rem;
+    box-sizing:border-box;
+    font:inherit;
+    border: 1px solid rgba(176, 166, 166, 0.228);
+    padding: 0.25rem;
+    color: rgba(128, 128, 128, 0.707)
+}
+input:focus{
+  
+    border-color:#0070ba;
+}
+button{
+    display: block;
+    font: inherit;
+    border:1px solid black;
+    background-color: #0070ba;
+    color:white;
+    padding:0.5rem 1.5rem;
+    border-radius:4px;
+    cursor:pointer;
+    margin:1.25rem;
+}
+
+button:hover{
+    background-color:#055183;
+    border-color:#055183;
+}
+
+.form-part-two{
+    display:flex;
+
+}
+.form-part-two input{
+    width:auto;
+    margin-right:0.5rem;
+}
+@media(max-width:24rem){
+    
+    #prezentare3{
+        height: 30rem;
+    }
+    
+    #prezentare3-content{
+        width: 20rem;
+        /* padding: 40px 0; */
+        margin: 0 auto;
+        position:relative;
+        top: 6.25rem;
+    }
+    
+    #prezentare3-content h1{
+        color:white;
+        font-size: 2rem;
+        padding:0.3rem 1.5rem;
+        margin:0;
+    
+    }
+    
+    #prezentare3-content p{
+        color:white;
+        /* padding:0.9rem; */
+        /* font-size:1.2rem; */
+        font-weight:  normal;
+    } 
+    
+    
+    
+    #prezentare3-content a{
+    
+        padding: 0.3rem 4rem;
+        font-size: 1.2rem;
+    
+    } 
+    
+    #contdata h1,h2{
+        padding:1rem 0px 0.5rem 0;
+        font-size:0.8rem;
+        
+    }
+    label{
+        margin-bottom: 0.5rem;
+        display:block;
+    }
+    
+    input{
+        width:30%;
+        padding: 0.20rem;
+    
+    }
+    button{
+     
+        padding:0.5rem 1rem;
+    
+        margin:1rem;
+    }
+
+
+    form hr{
+        width: 20rem;
+        margin:0;
+    }
+  
+    
+  }
+

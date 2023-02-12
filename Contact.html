@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact PayPal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.comm" crossorigin>
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,900&display=swap"
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/Contact.css">
+    <!-- <link rel="stylesheet" href="site.css"> -->
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="icon" href="images1/favicon-32x32.png" type="images/x-icon">
+    <script src="javascript/share.js" defer></script>
+    </head>
+    <body>
+     <header id="container">
+     <!-- <h1>PayPal website</h1> -->     
+     <a href="PayPal.html"><img src="images1/Brand.png" alt="PayPal logo"></a>
+
+     <div class="navbar">
+        <div class="subnav">
+          <button class="subnavbtn">Personal <i class="fa fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a href="#work">How PayPal WORKS</a>
+            <a href="SendMoney.html">Send Money</a>
+            <a href="#getapp">Get the PayPal App</a>
+            <a href="#online">Pay Online</a>
+            <a href="#getpaid">Get paid</a>
+            <a href="#search">Search for Deals</a>
+          </div>
+        </div>
+        <div class="subnav">
+          <button class="subnavbtn"> Business<i class="fa fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a href="#overview">Overview</a>
+            <a href="#accpayments">Accept Payments</a>
+            <a href="#mkpay">Make Payments</a>
+            <a href="#mangrisk">Manage Risk</a>
+            <a href="#strop">Streamline Operations</a>
+            <a href="#business">Business</a>
+            <a href="#enterprises">Enterprises</a>
+            <a href="MarketPlace.html">Platforms&Marketplace</a>
+          </div>
+        </div>
+        <div class="subnav">
+          <button class="subnavbtn">Partners <i class="fa fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a href="#commerce">PayPal Commerce Platform</a>
+            <a href="#program">PayPal Partner Program</a>
+            <a href="#developer">Developer Resources</a>
+          </div>
+        </div>
+        <a href="#help">Help</a>
+        <div id="logare">
+        <div class="log"><a href="LogIn.html">Log in</a></div>
+        <div class="sign"><a href="CreareCont.html">Sign Up</a></div>
+        </div>
+
+      </div>
+     </header>
+
+        <main>
+            <section id="prezentare3">
+                <div id="prezentare3-content">
+                    <h1>Request a call back</h1>
+                    <p>Do you have any questions on how to accept online payments for your business?
+                        Complete your details and we’ll be in touch shortly.</p>
+                    <a href="#">Help</a>
+                  </div>
+            </section>
+            <section id="contdata">
+                
+                <form  method="post" action="http://localhost:3000/post">
+                  <div class="titlu">
+                    <h1>How can we contact you?</h1>
+                  </div>
+                    <label for="fname">First name</label>
+                    <input type="text"  id="fname"/>
+                    <label for="lname">Last name</label>
+                    <input type="text"  id="lname" />
+                    <label for="uemail">E-mail address</label>
+                    <input type="email"  id="uemail"/>
+                    <label for="phone">Phone Number</label>
+                    <input type="tel"  id="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"/>
+                    <label for="website">Website</label>
+                    <input type="url" id="website" name="website"/>
+                    <label for="quantity">How important is your problem?(1-5)</label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="5">
+                    <label for="problem">Choose the problem:</label>
+                    <select name="problem" id="problem">
+                      <option value="account">I can't access my account</option>
+                      <option value="sendMoney">The money could not be sent</option>
+                      <option value="receiveMoney">I did not receive the money</option>
+                    </select>
+                      <label for="vol">How many days do you want to receive an answer?(between 0 and 5):</label>
+                      <input type="range" id="vol" name="vol" min="0" max="5">
+                    
+
+                    <hr>
+                    <div class="titlu">
+                    <h2>Where do you want to receive an answer from us?</h2>
+                    </div>
+                    <div class="form-part-two">
+                        <input type="radio" name="verify" id="verify-text-message" value="verify-text"/>
+                        <label for="verify-text-message">Via text message(SMS)</label>
+                        </div>
+                    <div class="form-part-two">
+                        <input type="radio" name="verify" id="verify-phone" value="number"/>
+                        <label for="verify-phone">Via a phone</label>
+                    </div>
+                    <div class="form-part-two">
+                        <input type="radio" name="verify" id="verify-email" value="email"/>
+                        <label for="verify-email">Via an email</label>
+                    </div>
+                    <div class="form-part-two">
+                        <input type="checkbox" id="agree-terms" name="terms"/>
+                        <label for="agree-terms">I have read and accepted the PayPal Privacy Statement. I consent to PayPal contacting me by phone or by email, and to sending me product or industry information relevant to my query. I know I can unsubscribe at any time.</label>
+
+                    </div>
+                   
+                    <button>Submit</button>
+                </form>
+                
+            </section>
+        </main>
+        <footer>
+            <div id="ulink">
+            <a href="#">Help and Contact</a>
+            <a href="#">Fees</a>
+            <a href="#">Security</a>
+            <a href="#">Features</a>
+            <a href="#">Shop</a>
+            <a href="#">Feedback</a>
+            <img src="images1/romania.png" alt="Romania" width="50" height="50">
+            <hr>
+            <a href="#">About</a>
+            <a href="#">Newsroom</a>
+            <a href="#">Jobs</a>
+            <a href="#">Site map</a>
+            <a href="#">Developers</a>
+            <a href="#">Partners</a>
+            <div id="MyClockDisplay" class=clock></div>
+            </div>
+       
+      </footer>
+    </body>
+    
+</html>

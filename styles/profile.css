@@ -1,0 +1,18 @@
+#prez{
+    height: 31.25rem;
+    background-image: url('../images1/random1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+.container{
+    
+    width: 800px;
+    height:600px;
+    margin: 10vh auto 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    font-size: 20px;
+}

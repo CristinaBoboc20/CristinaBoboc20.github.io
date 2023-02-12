@@ -1,0 +1,499 @@
+body{
+    font-family:'Roboto',sans-serif;   
+    background-color: rgb(234, 227, 227);    
+}
+body p,h2,h1{
+    margin:0;
+   
+}
+body p{
+    font-size:20px;
+   
+}
+#prezentare2{
+    height: 25rem;
+    background-image: url('../images1/background2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+#prezentare2-content{
+    width: 50rem;
+    /* text-align:center; */
+    padding: 1.6rem 0;
+    margin: 0 25rem;
+    position:relative;
+    top: 2.5rem;
+
+}
+
+#prezentare2-content h1{
+    color:white;
+    font-size: 3.125rem;
+    line-height: 3.75rem;
+    padding:1.25rem 0;
+    margin:0;
+
+
+}
+
+#prezentare2-content p{
+    color:white;
+    font-size:1.3rem;
+    padding-left: 0;
+    padding-top:10px;
+    
+} 
+#prezentare2-content a{
+
+    background-color:#0070ba ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 1.563rem;
+    color:white;
+    padding: 0.9rem 6rem;
+    font-size:0.938rem;
+    box-shadow: none;
+    margin-bottom:1rem;
+} 
+
+
+
+
+
+#global {
+    text-align: center;
+    justify-content: center;
+    background-color:#f5f7fa;
+    height:15.625rem;
+    
+}
+#descriere{
+   height:12.5rem;
+   padding:2.5rem 6.25rem;
+}
+
+
+
+
+  
+#descriere p{
+    padding:0.625rem; 
+}
+#descriere h2{
+    width: 30ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 1px;
+    font-size: 2em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+
+#global h2{
+    padding-top:1.875rem;
+    padding-bottom: 1.25rem;
+   margin-left:780px;
+    /* padding-left:50px;
+    padding-right:50px */
+    font-size:2.188rem
+  
+}
+#global p{
+    line-height: 1.6rem;
+}
+#accept{
+    background-color: #0070ba;
+    height:28.125rem;
+    color:white;
+    text-align: center;
+    justify-content: center;
+
+    
+}
+#payments{
+    display:flex;
+    width:90%;
+    margin:auto;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+#cont2{
+    padding:3.75rem;
+    animation:fundal 5s ease infinite;
+}
+#cont2 h1,p{
+    padding-bottom:1.875rem;
+}
+#cont2 h1{
+
+    -webkit-animation:colorchange 20s infinite alternate;
+    
+}
+@keyframes fundal {
+    0% {
+        background-color: #1061b1;
+    }
+    50%{
+        background-color: #062e92;
+    }
+    100%{
+        background-color: #071e7b;
+    }
+}
+
+@-webkit-keyframes colorchange {
+    0% {
+      
+      color: white;
+    }
+    
+    10% {
+      
+      color: rgb(200, 237, 233);
+    }
+    
+    20% {
+      
+      color: rgb(124, 232, 227);
+    }
+    
+    30% {
+      
+      color: rgba(94, 208, 225, 0.892);
+    }
+    
+    40% {
+      
+      color: rgb(0, 191, 255);
+    }
+    
+    50% {
+      
+      color: rgba(0, 132, 255, 0.711);
+    }
+    
+    60% {
+      
+      color: rgb(0, 68, 255);
+    }
+    
+    70% {
+      
+      color: #12468f;
+    }
+    80% {
+   
+      color: #050b81;
+    }
+    
+    90% {
+   
+      color: #0621999b;
+    }
+    
+    100% {
+      
+      color: rgb(4, 3, 55);
+    }
+  }
+.pay1{
+    padding:1.875rem;
+}
+#presentation{
+    background-color: white;
+    height:93.75rem;
+   
+}
+#presentation h1{
+ 
+    /* padding-top:50px; */
+    padding-bottom: 4.375rem;
+    font-size:2.5rem;
+    text-align:center;
+
+
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+
+
+
+#presentation{
+   /* padding:6.25rem 6.25rem 200px 200px; */
+   padding:6.875rem;
+}
+#grid ul{
+    width:81.25rem;
+    /* margin:0 auto 1.25rem auto; */
+    margin:0;
+    padding:4.375rem;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem 2.5rem;
+}
+#grid li:nth-of-type(3n){
+    grid-column:1 / span 2;
+    width:129rem;
+}
+
+#grid li{
+    display:flex;
+    background-color: white;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.194);
+    /* overflow: hidden; */
+    width:63.125rem;
+    height:20.313rem;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+
+}
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+}
+#grid li img{
+    width:25rem;
+    height:19rem;
+    /* object-fit:center; */
+}
+
+.item-content{
+    padding:1.875rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+.item-content h2,p{
+    padding:1.6rem;
+}
+.actions{
+    text-align:right;
+}
+#Start2{
+    background-color: #f5f7fa;
+    text-align:center;
+    margin: 0;
+    height:18.75rem;
+    position:relative;
+    width:100%;
+}
+#Start2 h1{
+    margin:0;
+    padding:2.5rem;
+    font-size:1.875rem;
+}
+
+#Start2 a{
+    background-color:#0070ba ;
+    padding: 0.875rem 1.563rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 1.563rem;
+    color:white;
+    padding: 0.5rem 6.25rem;
+    font-size: 1.5rem;
+    box-shadow: none;
+}
+@media(max-width:24rem){
+
+    #prezentare2{
+        height: 16rem;
+        width: 23.5rem;
+    }
+    
+    #prezentare2-content{
+        width: 100rem;
+        height:20px;
+        padding-left: 25px;
+        padding-bottom:10px;
+        padding-top: 12px;
+        top: 0.3rem;
+        margin:0;
+    
+    }
+    
+    #prezentare2-content h1{
+        
+        padding: 0.2rem;
+        font-size:1.2rem;
+        line-height: 30px;
+    
+    }
+    
+    #prezentare2-content p{
+      
+        padding-top:5px;
+        width:350px;
+        font-size:1rem;
+        
+    } 
+    #prezentare2-content a{
+     
+        padding: 0.5rem 4rem;
+        font-size:0.6rem;
+        margin-bottom:1rem;
+    } 
+    #global{
+        height:18.625rem;
+        
+    }
+    #descriere{
+       height:20.5rem;
+       padding:0;
+    }
+    #descriere p{
+        line-height: 1.6rem;
+        width:350px;
+        
+    }
+    #descriere h2{
+        margin:0;
+        padding-left:0.8rem;
+    }
+    #global h2{ 
+        padding-top:1rem;
+        padding-bottom: 1.25rem;
+        font-size:1.3rem
+      
+    }
+  
+    #accept{
+        
+        height:60rem;
+        
+    }
+    #payments{
+        display:flex;
+        flex-direction: column;
+    }
+    #cont2{
+        padding:1.75rem;
+        
+
+    }
+    #cont2 h1,p{
+        padding-bottom:1.875rem;
+    }
+    #cont2 p{
+        padding-left:20px;
+        width:300px;
+    }
+    .pay1{
+        padding:1.875rem;
+    }
+
+
+
+    #presentation{
+       
+        height:120rem;
+       
+    }
+    #presentation h1{
+     
+       
+        padding-bottom: 2.75rem;
+        font-size:1.5rem;
+    }
+    #presentation{
+
+       padding:2rem;
+    }
+    #grid ul{
+        width:20.25rem;
+        margin:0;
+        padding-left:0;
+        grid-template-columns: 100%;
+    
+    }
+    
+    
+    #grid li{
+        display:flex;
+        width:20.125rem;
+        height:25.313rem;
+        
+
+    }
+    #grid li:nth-of-type(3n){
+        grid-column:1fr;
+        display:flex;
+        width:20.125rem;
+        height:25.313rem;
+    }
+    #grid li img{
+        width:10rem;
+        height:19rem;
+       
+    }
+    
+    .item-content{
+        padding:0.5rem;
+        display:flex;
+        flex-direction:column;
+    }
+    .item-content h2,p{
+        padding:0.5rem;
+        width:120px;
+    }
+ 
+    #Start2{
+        margin: 0;
+        height:18.75rem;
+        width:100%;
+    }
+    #Start2 h1{
+        margin:0;
+        padding:2.5rem;
+        font-size:1.875rem;
+    }
+    
+    #Start2 a{
+       
+        padding: 0.875rem 1.563rem;
+        border-radius: 1.563rem;
+        padding: 0.5rem 6.25rem;
+        font-size: 1.5rem;
+    }
+}
